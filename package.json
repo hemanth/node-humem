@@ -1,0 +1,36 @@
+{
+  "name": "humem",
+  "version": "0.1.0",
+  "description": "Human Readable real time memory stats.",
+  "license": "MIT",
+  "repository": "hemanth/humem",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "memory",
+    "usage",
+    "os",
+    "human",
+    "ram",
+    "stats"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "proxyquire": "~1.0.1"
+  },
+  "dependencies": {
+    "pretty-bytes": "^0.1.1"
+  }
+}
