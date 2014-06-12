@@ -2,8 +2,8 @@
 var assert = require('assert');
 var proxyquire =  require('proxyquire')
 var osStub = {
-			"totalmem": function() { return 2931429376;},
-			"freemem": function() { return 474046464; }
+    "totalmem": function() { return 2931429376; },
+    "freemem" : function() { return 474046464;  }
 };
 
 var humem = proxyquire("./index",{'os':osStub});
