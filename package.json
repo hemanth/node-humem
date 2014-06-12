@@ -1,9 +1,9 @@
 {
   "name": "humem",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Human Readable real time memory stats.",
   "license": "MIT",
-  "repository": "hemanth/humem",
+  "repository": "hemanth/node-humem",
   "author": {
     "name": "Hemanth.HM",
     "email": "hemanth.hm@gmail.com",
